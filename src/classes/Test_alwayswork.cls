@@ -3,10 +3,10 @@
  */
 
 @isTest
-public with sharing class Test_alwayswork {
+public  with sharing class Test_alwayswork {
 
     @isTest
-    public void testAllGood() {
+    public static void  testAllGood() {
 
         system.assertEquals(true, true);
 
