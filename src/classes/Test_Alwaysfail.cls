@@ -11,7 +11,7 @@ public with sharing class Test_Alwaysfail {
         FSM_showingof f = new FSM_showingof();
         f.ThinhgsToBeTested();
         system.assertEquals(true, false);
-        
+
     }
 
 }
