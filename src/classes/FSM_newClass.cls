@@ -6,7 +6,7 @@ public with sharing class FSM_newClass {
 
     public string a {get;set;}
     public string b {get;set;}
-    public void FSM_newClass(){
+    public  FSM_newClass(){
 
 
         String a = 'a';
