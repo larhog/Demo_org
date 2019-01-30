@@ -11,8 +11,11 @@ public with sharing class Test_Alwaysfail {
 
         FSM_newClass ff  = new FSM_newClass();
         ff.doThis();
-        system.assertEquals(true, true);
+        ff.a = 'b';
+        ff.b = 'd';
         system.debug('Now this');
+        system.assertEquals(true, true);
+
 
     }
 
