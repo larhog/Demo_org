@@ -10,7 +10,7 @@ public with sharing class Test_Alwaysfail {
 
 
 
-        system.assertEquals(true, true);
+        system.assertEquals(true, false);
 
 
     }
