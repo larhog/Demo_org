@@ -14,7 +14,7 @@ public with sharing class Test_Alwaysfail {
         ff.a = 'b';
         ff.b = 'd';
         system.debug('Now this');
-        system.assertEquals(true, true);
+        system.assertEquals(true, false);
 
 
     }
