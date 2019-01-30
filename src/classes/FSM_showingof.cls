@@ -18,6 +18,7 @@ public class FSM_showingof {
         System.debug('Looking for love');
         System.debug('Extra  love and then more 1234');
         System.debug('I do this now test new things');
+        System.debug('Demo');
     }
 
 }
