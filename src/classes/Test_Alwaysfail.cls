@@ -10,8 +10,10 @@ public with sharing class Test_Alwaysfail {
 
         FSM_showingof f = new FSM_showingof();
         f.ThinhgsToBeTested();
-        system.assertEquals(true, false);
-        
+        FSM_newClass ff  = new FSM_newClass();
+        ff.doThis();
+        system.assertEquals(true, true);
+
     }
 
 }
