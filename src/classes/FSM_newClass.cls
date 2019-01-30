@@ -18,6 +18,7 @@ public with sharing class FSM_newClass {
 
         a = 'b';
         b = 'c';
+        System.debug(a + ' I am a');
     }
 
 }
