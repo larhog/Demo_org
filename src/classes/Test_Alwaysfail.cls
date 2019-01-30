@@ -8,11 +8,14 @@ public with sharing class Test_Alwaysfail {
     @isTest
     public static void  testNotingIsGood() {
 
-        FSM_showingof f = new FSM_showingof();
-        f.ThinhgsToBeTested();
+
         FSM_newClass ff  = new FSM_newClass();
         ff.doThis();
+        ff.a = 'b';
+        ff.b = 'd';
+        system.debug('Now this');
         system.assertEquals(true, true);
+
 
     }
 
